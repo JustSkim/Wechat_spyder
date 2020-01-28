@@ -32,7 +32,7 @@ while day_int<1 or day_int>30:
 path_select=input("是否使用默认爬取文件储存地址（Y/N）？")
 if path_select=="Y" or path_select=="y" or path_select=="Yes" or path_select=="yes":
     #文件夹命名加上天数，以加以区别
-    path="d:\\知乎-CS书籍推荐\CS master\希鹊考研30天资料\Day" + day
+    path="d:\\CS书籍推荐\CS master\考研30天资料\Day" + day
 else:
     path=input("请输入文件存储地址（格式为D:\\...\）：")
 
